@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in Perl: loose comparison.  The script uses '==' which does not strictly check for type equality. This can lead to unexpected behavior, especially when comparing numbers and strings. The solution showcases how to use '===' for strict comparison to prevent such issues.
